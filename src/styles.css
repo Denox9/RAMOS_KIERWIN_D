@@ -6,7 +6,7 @@
   font-family: monospace;
 }
 body {
-  background-image: url("/Elements/wall.png");
+  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-shapes-colorful-modern-pattern_38782-838.jpg);
 }
 .nav {
   display: flex;
@@ -30,30 +30,11 @@ body {
   letter-spacing: 5px;
   font-size: 22px;
 }
-.navlink {
-  display: flex;
-  justify-content: space-around;
-  width: 20%;
-}
-.navlink li {
-  list-style: none;
-}
-.navlink a {
-  color: rgb(241, 241, 241);
-  text-decoration: none;
-  letter-spacing: 1px;
-  font-weight: bold;
-  font-size: 14px;
-}
-.wall {
-  width: 30cm;
-  height: 20cm;
-}
 .container {
   background-color: rgba(255, 255, 255, 0.904);
   display: grid;
-  grid-template-columns: 10vh 50vh 50vh;
-  grid-template-rows: 35vw 10vw;
+  grid-template-columns: 10vh 50vh;
+  grid-template-rows: 55vw;
   margin: 3%;
   margin-left: 5%;
   box-shadow: 1px 2px 7px 1px;
@@ -69,8 +50,8 @@ body {
   grid-column: 3 / span 2;
   justify-content: space-around;
   margin: 10px;
-  height: 124%;
-  background-color: rgba(137, 43, 226, 0.836);
+
+  background-image: url(https://i.pinimg.com/750x/8d/67/45/8d674504d5298d06a54694afca83ae5e.jpg);
 }
 .img1 {
   margin-left: 8%;
@@ -89,40 +70,4 @@ body {
   padding: 2%;
   margin-top: 20%;
   margin-left: 10%;
-}
-.container1 {
-  display: grid;
-  grid-template-columns: 41vh 41vh 41vh;
-  grid-template-rows: 5vw 28vw;
-  margin: 3%;
-}
-.text1 {
-  color: rgb(241, 241, 241);
-  grid-column: 1 / span 3;
-  display: flex;
-  background-color: rgb(0, 0, 0);
-  justify-content: space-around;
-  text-align: center;
-  height: 8vh;
-  box-shadow: 1px 2px 7px 1px;
-  box-shadow: rgba(0, 0, 0, 0.521);
-  margin-left: 4%;
-}
-.box4 {
-  justify-content: space-around;
-  background-color: rgba(137, 43, 226, 0.836);
-  margin: 10%;
-  margin-left: 18%;
-  box-shadow: 1px 2px 7px 1px;
-  box-shadow: rgba(0, 0, 0, 0.062);
-}
-.skill {
-  margin: 10%;
-  width: 80%;
-  height: 80%;
-}
-.text2 {
-  grid-column: 1 / span 3;
-  font-weight: bold;
-  font-size: 130%;
 }
