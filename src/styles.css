@@ -31,32 +31,26 @@ body {
   font-size: 22px;
 }
 .container {
-  display: grid;
-  grid-template-columns: 50vh 50vh;
-  grid-template-rows: 70vh;
   background-color: rgba(255, 255, 255, 0.904);
+  display: grid;
+  grid-template-columns: 10vh 50vh;
+  grid-template-rows: 55vw;
+  margin: 3%;
+  margin-left: 5%;
   box-shadow: 1px 2px 7px 1px;
-  justify-content: space-around;
-  margin: 30px;
-}
-.box1 {
-  margin-left: 0.5in;
-  margin-top: 1.5in;
-  margin-bottom: 0.5in;
-  text-align: left;
-  justify-content: space-around;
-  align-items: center;
-  
+  width: 90%;
 }
 .box2 {
-  margin-left: 0.5in;
-  margin-top: 0.5in;
-  margin-bottom: 0.5in;
-  text-align: left;
-  background-image: url(https://i.pinimg.com/originals/8d/67/45/8d674504d5298d06a54694afca83ae5e.png);
+  grid-column: 2;
   justify-content: space-around;
-  align-items: center;
-  background-color: blueviolet;
+  height: 115%;
+  margin-top: 2%;
+}
+.box3 {
+  grid-column: 3 / span 2;
+  justify-content: space-around;
+  margin: 10px;
+  background-image: url(https://i.pinimg.com/750x/8d/67/45/8d674504d5298d06a54694afca83ae5e.jpg);
 }
 .img1 {
   margin-left: 8%;
@@ -71,9 +65,8 @@ body {
   font-weight: 200px;
   line-height: 80%;
 }
-h1 {
-  font-size: 5vh;
-}
-h2 {
-  font-size: 3vh;
+.sbox {
+  padding: 2%;
+  margin-top: 20%;
+  margin-left: 10%;
 }
