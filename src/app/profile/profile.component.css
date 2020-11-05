@@ -1,0 +1,73 @@
+/* Add application styles & imports to this file! */
+* {
+  margin: 0%x;
+  padding: 0%;
+  box-sizing: border-box;
+  font-family: monospace;
+  font-weight: bold;
+}
+body {
+  background-image: url(https://image.freepik.com/free-vector/abstract-geometric-shapes-colorful-modern-pattern_38782-838.jpg);
+}
+.nav {
+  display: flex;
+  background-color: blueviolet;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 8vw;
+  box-shadow: 1px 2px 7px 1px;
+}
+.nav1 {
+  display: flex;
+  background-color: blueviolet;
+  justify-content: space-around;
+  align-items: center;
+  height: 4vh;
+  box-shadow: 1px 2px 7px 1px;
+}
+.logo {
+  text-transform: uppercase;
+  color: rgb(241, 241, 241);
+  letter-spacing: 5px;
+  font-size: 22px;
+}
+.container {
+  background-color: rgba(255, 255, 255, 0.904);
+  display: grid;
+  grid-template-columns: 10vh 50vh;
+  grid-template-rows: 55vw;
+  margin: 3%;
+  margin-left: 5%;
+  box-shadow: 1px 2px 7px 1px;
+  width: 90%;
+}
+.box2 {
+  grid-column: 2;
+  justify-content: space-around;
+  height: 115%;
+  margin-top: 2%;
+}
+.box3 {
+  grid-column: 3 / span 2;
+  justify-content: space-around;
+  margin: 10px;
+  background-image: url(https://i.pinimg.com/750x/8d/67/45/8d674504d5298d06a54694afca83ae5e.jpg);
+}
+.img1 {
+  margin-left: 8%;
+  padding: 0%;
+  height: 57vh;
+  width: 40vw;
+  display: flex;
+  position: relative;
+}
+.name1 {
+  font-size: 65px;
+  font-weight: 200px;
+  line-height: 80%;
+}
+.sbox {
+  padding: 2%;
+  margin-top: 20%;
+  margin-left: 10%;
+}
